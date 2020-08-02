@@ -1,0 +1,81 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Sat Jul 18 17:37:45 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x00011e
+                   .org_2       code   0x0000ff    program   0x000202
+.config_2007_BUILD/DEFAULT/DEBUG/MAIN.O       code   0x002007    program   0x000002
+                   .udata      udata   0x000040       data   0x00000a
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000092      
+                            0x0000ff    0x0001ff      
+                            0x002007    0x002007      
+            404 out of 518 program addresses used, program memory utilization is 77%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 ENDOFINT   0x000031    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                  INTTMR2   0x00002e    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                 MAINLOOP   0x00005b    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                SIN.START   0x000021    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                    START   0x000036    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                TRIAC.OFF   0x00000f    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                    Table   0x0000ff    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                  clr.nco   0x000064    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                edge.rise   0x000069    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+               tmr0.start   0x00007a    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                tmr0.stop   0x00007e    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+              tmr0.stop.1   0x00008b    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                     FIRE   0x000045       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                  PR2_TMP   0x000042       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+              STATUS_TEMP   0x000041       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                      TMP   0x000044       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                   W_TEMP   0x000040       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                    count   0x000043       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+           edgeF.detected   0x000049       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+           edgeR.detected   0x000048       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+         inputs.last_time   0x000047       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+         inputs.this_time   0x000046       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                TRIAC.OFF   0x00000f    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                SIN.START   0x000021    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                  INTTMR2   0x00002e    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                 ENDOFINT   0x000031    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                    START   0x000036    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                 MAINLOOP   0x00005b    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                  clr.nco   0x000064    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                edge.rise   0x000069    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+               tmr0.start   0x00007a    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                tmr0.stop   0x00007e    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+              tmr0.stop.1   0x00008b    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                    Table   0x0000ff    program     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                   W_TEMP   0x000040       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+              STATUS_TEMP   0x000041       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                  PR2_TMP   0x000042       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                    count   0x000043       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                      TMP   0x000044       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+                     FIRE   0x000045       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+         inputs.this_time   0x000046       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+         inputs.last_time   0x000047       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+           edgeR.detected   0x000048       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+           edgeF.detected   0x000049       data     static C:\Users\Sirin\Dropbox\ZeroCross\PIC10\MAIN.asm
+
+
